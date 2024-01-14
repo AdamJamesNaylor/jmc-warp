@@ -1,0 +1,18 @@
+warps:
+  Imbick:
+    - 9db474ba-0a9e-4dcc-bdae-aa89c75c290b:
+        name: "Farm"
+        world: world
+        position: [123, 123, 123]
+        pitch: 123
+        yaw: 123
+        destination: 3445fc48-1a8b-4e1c-91fb-3a818b2d4e2a
+  Tweros:
+    - 3445fc48-1a8b-4e1c-91fb-3a818b2d4e2a:
+        name: "Home"
+        world: world
+        position: [123, 123, 123]
+        pitch: 123
+        yaw: 123
+        destination: 9db474ba-0a9e-4dcc-bdae-aa89c75c290b
+

@@ -1,0 +1,4 @@
+name: 'JMCWarp'
+version: '${version}'
+main: com.jupiterminingcraft.warp.JMCWarp
+api-version: '1.16'
