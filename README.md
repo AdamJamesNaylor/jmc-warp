@@ -68,12 +68,15 @@ Currently anybody can craft a Warpstone if they have the right ingredients but i
 Not at the moment but in a future version a Warpstone will be able to be placed in a [Grindstone](https://minecraft.fandom.com/wiki/Grindstone) in order for it's bind to be removed. Effectively turning back into a Lodestone.
 
 ### Why a Lodestone?
-Lodestones seem to fit from a Lore perspective and they also aren't cheap to craft meaning Warpstones won't be overused.
+Lodestones seem to fit from a lore perspective and they also aren't cheap to craft meaning Warpstones won't be overused.
 
 ### Why a block and not just a command?
 Blocks are diegetic, commands are cumbersome to type on certain devices.
 
-### What happens if a player uses a Warpstone with a destination that has been removed from the world
+### What happens if a player uses a Warpstone with a destination that has been removed from the world?
 If the destination Warpstone is no longer placed in the world (because a player removed it or it got destroyed somehow) the Warpstone will simply not teleport the player and will inform them with a message.
+
+### Can you warp between different dimensions?
+Yep. Multidimensional warping is supported.
 
 
