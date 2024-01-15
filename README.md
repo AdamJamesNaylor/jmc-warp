@@ -1,6 +1,12 @@
 # JMC Warp
 JMC Warp is a plugin for Minecraft servers that adds the ability to craft special Warpstone blocks that allow players to easily teleport between two connected Warpstones.
 
+[Installing](https://github.com/AdamJamesNaylor/jmc-warp/blob/main/README.md#installing)
+[Guide for players](https://github.com/AdamJamesNaylor/jmc-warp/blob/main/README.md#guide-for-players)
+[Guide for administrators](https://github.com/AdamJamesNaylor/jmc-warp/blob/main/README.md#guide-for-administrators)
+[Guide for developers](https://github.com/AdamJamesNaylor/jmc-warp/blob/main/README.md#guide-for-developers)
+[FAQ](https://github.com/AdamJamesNaylor/jmc-warp/blob/main/README.md#faq)
+
 ## Installing
 Simply copy the plugin's `.jar` file into your server's `plugin` folder and restart the server. The plugin will then be enabled.
 
