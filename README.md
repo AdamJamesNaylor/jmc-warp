@@ -9,7 +9,7 @@ Simply copy the plugin's `.jar` file into your server's `plugin` folder and rest
 ### Obtaining a Warpstone
 ![image](https://github.com/AdamJamesNaylor/jmc-warp/assets/1583720/8849d82f-2bf4-445f-a0bd-872064a2c352)
 
-A Warpstone can be crafted by placing a [Lodestone]([url](https://minecraft.fandom.com/wiki/Lodestone)) and an [Enderpearl]([url](https://minecraft.fandom.com/wiki/Ender_Pearl)) into a crafting square. The recipe is [shapeless]([url](https://minecraft.wiki/w/Crafting#Basic_crafting)) so you don't need to worry about where the ingredients are placed.
+A Warpstone can be crafted by placing a [Lodestone](https://minecraft.fandom.com/wiki/Lodestone) and an [Enderpearl](https://minecraft.fandom.com/wiki/Ender_Pearl) into a crafting square. The recipe is [shapeless](https://minecraft.wiki/w/Crafting#Basic_crafting) so you don't need to worry about where the ingredients are placed.
 
 ### Naming a Warpstone
 A Warpstone can be renamed in an anvil like any other item and this allows the player to differentiate between different Warpstone locations. e.g `Farm` or `Home`.
@@ -32,7 +32,7 @@ If a Warpstone is bound to more than one destination it will store that informat
 Currently anybody can craft a Warpstone if they have the right ingredients but in a future version this ability will need to be unlocked via a command so that ranks and permissions can be supported.
 
 ### Can a bind be removed?
-Not at the moment but in a future version a Warpstone will be able to be placed in a [Grindstone]([url](https://minecraft.fandom.com/wiki/Grindstone)) in order for it's bind to be removed. Effectively turning back into a Lodestone.
+Not at the moment but in a future version a Warpstone will be able to be placed in a [Grindstone](https://minecraft.fandom.com/wiki/Grindstone) in order for it's bind to be removed. Effectively turning back into a Lodestone.
 
 ### Why a Lodestone?
 Lodestones seem to fit from a Lore perspective and they also aren't cheap to craft meaning Warpstones won't be overused.
