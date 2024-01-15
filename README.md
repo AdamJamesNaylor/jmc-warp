@@ -22,6 +22,14 @@ Once two Warpstones are bound together and each are placed in the world, players
 
 If the destination Warpstone has been removed from the world (either by a player or due to an explosion) the Warpstone will not teleport the player but let them know that the destination is no longer valid.
 
+## Guide for administrators
+
+### Commands
+There are currently no commands
+
+### Persitence
+The Warpstone state is currently persisted in the file `todo.yml`. In future versions this may change to something more scalable.
+
 ## Guide for developers
 
 ### Events
