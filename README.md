@@ -31,7 +31,9 @@ If the destination Warpstone has been removed from the world (either by a player
 ## Guide for administrators
 
 ### Commands
-There are currently no commands
+
+#### /jmcwarp give
+Gives the player a warpstone.
 
 ### Persitence
 The Warpstone state is currently persisted in the file `todo.yml`. In future versions this may change to something more scalable.
