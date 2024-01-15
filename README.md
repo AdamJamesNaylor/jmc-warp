@@ -15,10 +15,29 @@ A Warpstone can be crafted by placing a [Lodestone](https://minecraft.fandom.com
 A Warpstone can be renamed in an anvil like any other item and this allows the player to differentiate between different Warpstone locations. e.g `Farm` or `Home`.
 
 ### Placing and Binding warpstones
-When a Warpstone is first placed in the world it will not be bound to any destinations so it will function like a normal Lodestone. In order to bind two warpstones one must be placed ontop of another. This will bind the two so that they will allow teleportation between them. If the bind is successful the player will hear a sound effect, see a particle effect, and receive a message letting you know that the two Warpstones are now bound.
+When a Warpstone is first placed in the world it will not be bound to any destinations so it will function like a normal Lodestone. In order to bind two Warpstones one must be placed on top of another. This will bind the two so that they will allow teleportation between them. If the bind is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now bound.
 
 ### Using a Warpstone
 Once two Warpstones are bound together and each are placed in the world, players are free to use them as warps. Simply standing on either Warpstone will teleport them to the other.
+
+If the destination Warpstone has been removed from the world (either by a player or due to an explosion) the Warpstone will not teleport the player but let them know that the destination is no longer valid.
+
+## Guide for developers
+
+### Events
+The plugin raises the following events;
+#### WarpstoneCraftEvent
+Raised when a Warpstone is crafted.
+#### WarpstonePlaceEvent
+Raised when a Warpstone is placed in the world by a player.
+#### WarpstoneBindEvent
+Raised when a Warpstone is placed on top of another and the two are successfully bound together.
+#### WarpstoneUseEvent
+Raised when a player walks on to a Warpstone even if it doesn't have a destination.
+#### WarpstoneWarpEvent
+Raised after a player has walked onto a Warpstone and has been teleported to the destination Warpstone.
+#### WarpstoneDestroyEvent
+Rasied when Warpstone is destroyed via `EntityExplodeEvent`, `BlockExplodeEvent` or `BlockBreakEvent`.
 
 ## FAQ
 
@@ -39,3 +58,8 @@ Lodestones seem to fit from a Lore perspective and they also aren't cheap to cra
 
 ### Why a block and not just a command?
 Blocks are diegetic, commands are cumbersome to type on certain devices.
+
+### What happens if a player uses a Warpstone with a destination that has been removed from the world
+If the destination Warpstone is no longer placed in the world (because a player removed it or it got destroyed somehow) the Warpstone will simply not teleport the player and will inform them with a message.
+
+
