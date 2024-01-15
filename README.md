@@ -8,7 +8,8 @@ Simply copy the plugin's `.jar` file into your server's `plugin` folder and rest
 
 ### Obtaining a Warpstone
 ![image](https://github.com/AdamJamesNaylor/jmc-warp/assets/1583720/8849d82f-2bf4-445f-a0bd-872064a2c352)
-A Warpstone can be crafted by placing a [Lodestone]([url](https://minecraft.fandom.com/wiki/Lodestone)) and an [Enderpearl]([url](https://minecraft.fandom.com/wiki/Ender_Pearl)) into a crafting square. The recipe is shapeless so you don't need to worry about where the ingredients are placed.
+
+A Warpstone can be crafted by placing a [Lodestone]([url](https://minecraft.fandom.com/wiki/Lodestone)) and an [Enderpearl]([url](https://minecraft.fandom.com/wiki/Ender_Pearl)) into a crafting square. The recipe is [shapeless]([url](https://minecraft.wiki/w/Crafting#Basic_crafting)) so you don't need to worry about where the ingredients are placed.
 
 ### Naming a Warpstone
 A Warpstone can be renamed in an anvil like any other item and this allows the player to differentiate between different Warpstone locations. e.g `Farm` or `Home`.
