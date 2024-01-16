@@ -30,6 +30,15 @@ If the destination Warpstone has been removed from the world (either by a player
 
 ## Guide for administrators
 
+### Configuration
+
+The following settings can be changed in the `config.yml` file.
+
+#### block
+
+Default: minecraft:lodestone  
+Specifies which block to use as the warp block.
+
 ### Commands
 
 #### /jmcwarp give
@@ -70,7 +79,7 @@ Currently anybody can craft a Warpstone if they have the right ingredients but i
 Not at the moment but in a future version a Warpstone will be able to be placed in a [Grindstone](https://minecraft.fandom.com/wiki/Grindstone) in order for it's connection to be removed. Effectively turning back into a Lodestone.
 
 ### Why a Lodestone?
-Lodestones seem to fit from a lore perspective and they also aren't cheap to craft meaning Warpstones won't be overused.
+Lodestones seem to fit from a lore perspective and they also aren't cheap to craft meaning Warpstones won't be overused. This can be changed in the configuration.
 
 ### Why a block and not just a command?
 Blocks are diegetic, commands are cumbersome to type on certain devices.
