@@ -37,7 +37,7 @@ The following settings can be changed in the `config.yml` file.
 #### block
 
 Default: minecraft:lodestone  
-Specifies which block to use as the warp block.
+Specifies which block to use in the warpstone crafting recipe.
 
 ### Commands
 
