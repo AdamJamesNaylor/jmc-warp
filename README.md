@@ -21,7 +21,8 @@ A Warpstone can be crafted by placing a [Lodestone](https://minecraft.fandom.com
 A Warpstone can be renamed in an anvil like any other item and this allows the player to differentiate between different Warpstone locations. e.g `Farm` or `Home`.
 
 ### Placing and connecting warpstones
-When a Warpstone is first placed in the world it will not be connected to any destinations so it will function like a normal Lodestone. In order to connect two Warpstones one must be placed on top of another. This will connect the two so that they will allow teleportation between them. If the connect is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now connected.
+When a Warpstone is first placed in the world it will not be connected to any destinations so it will function like a normal Lodestone. In order to connect two Warpstones one must be placed on top of another. This will connect the two so that they will allow teleportation between them. If the connect is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now connected.  
+Warpstones can be picked up and relocated just like any other block and they will retain their connections.
 
 ### Using a Warpstone
 Once two Warpstones are connected together and each are placed in the world, players are free to use them as warps. Simply standing on either Warpstone will teleport them to the other.
