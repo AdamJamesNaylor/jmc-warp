@@ -22,6 +22,7 @@ A Warpstone can be renamed in an anvil like any other item and this allows the p
 
 ### Placing and connecting warpstones
 When a Warpstone is first placed in the world it will not be connected to any destinations so it will function like a normal Lodestone. In order to connect two Warpstones one must be placed on top of another. This will connect the two so that they will allow teleportation between them. If the connect is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now connected.  
+
 Warpstones can be picked up and relocated just like any other block and they will retain their connections.
 
 ### Using a Warpstone
