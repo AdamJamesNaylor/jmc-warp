@@ -21,10 +21,10 @@ A Warpstone can be crafted by placing a [Lodestone](https://minecraft.fandom.com
 A Warpstone can be renamed in an anvil like any other item and this allows the player to differentiate between different Warpstone locations. e.g `Farm` or `Home`.
 
 ### Placing and connecting warpstones
-When a Warpstone is first placed in the world it will not be bound to any destinations so it will function like a normal Lodestone. In order to connect two Warpstones one must be placed on top of another. This will connect the two so that they will allow teleportation between them. If the connect is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now bound.
+When a Warpstone is first placed in the world it will not be connected to any destinations so it will function like a normal Lodestone. In order to connect two Warpstones one must be placed on top of another. This will connect the two so that they will allow teleportation between them. If the connect is successful the player will hear a sound effect, see a particle effect, and receive a message letting them know that the two Warpstones are now connected.
 
 ### Using a Warpstone
-Once two Warpstones are bound together and each are placed in the world, players are free to use them as warps. Simply standing on either Warpstone will teleport them to the other.
+Once two Warpstones are connected together and each are placed in the world, players are free to use them as warps. Simply standing on either Warpstone will teleport them to the other.
 
 If the destination Warpstone has been removed from the world (either by a player or due to an explosion) the Warpstone will not teleport the player but let them know that the destination is no longer valid.
 
@@ -56,7 +56,7 @@ Raised when a Warpstone is crafted.
 #### WarpstonePlaceEvent
 Raised when a Warpstone is placed in the world by a player.
 #### WarpstoneConnectEvent
-Raised when a Warpstone is placed on top of another and the two are successfully bound together.
+Raised when a Warpstone is placed on top of another and the two are successfully connected together.
 #### WarpstoneUseEvent
 Raised when a player walks on to a Warpstone even if it doesn't have a destination.
 #### WarpstoneWarpEvent
@@ -69,8 +69,8 @@ Rasied when Warpstone is destroyed via `EntityExplodeEvent`, `BlockExplodeEvent`
 ### What happens if a Warpstone is broken by a player or exploded?
 The Warpstone will always drop itself so a player can pick it back up and it will retain all of it's connection information so that it can be replaced.
 
-### What happens if more than one Warpstone is bound to another?
-If a Warpstone is bound to more than one destination it will store that information but a player using that Warpstone will currently always warp to the first destination that was bound. Effectively ignoring all connections after the first. This will be addressed in a future version where the player will be able to select which of the bound destinations to warp to.
+### What happens if more than one Warpstone is connected to another?
+If a Warpstone is connected to more than one destination it will store that information but a player using that Warpstone will currently always warp to the first destination that was connected. Effectively ignoring all connections after the first. This will be addressed in a future version where the player will be able to select which of the connected destinations to warp to.
 
 ### Can anybody craft Warpstones?
 Currently anybody can craft a Warpstone if they have the right ingredients but in a future version this ability will need to be unlocked via a command so that ranks and permissions can be supported.
